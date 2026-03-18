@@ -1,13 +1,13 @@
-package com.fatec.demo;
+package com.fatec.nickolas_mariana_ocireu;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class NickolasMarianaOcireuApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(NickolasMarianaOcireuApplication.class, args);
 	}
 
 }
