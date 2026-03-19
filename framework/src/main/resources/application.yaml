@@ -3,10 +3,10 @@ spring:
     name: nickolas_mariana_ocireu
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/banco
+    url: jdbc:postgresql://ep-lucky-bonus-an1vd7nt-pooler.c-6.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require
     driver-class-name: org.postgresql.Driver
-    username: user
-    password: password
+    username: neondb_owner
+    password: "npg_9jxhbLTkKp1l"
 
   jpa:
     hibernate:

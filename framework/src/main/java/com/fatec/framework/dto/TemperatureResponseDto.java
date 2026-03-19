@@ -10,18 +10,18 @@ import java.util.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 public class TemperatureResponseDto {
-    @JsonProperty("data_hora")
+    @JsonProperty("dataHora")
     private Date time;
 
-    @JsonProperty("temperatura_dia")
+    @JsonProperty("temperaturaDia")
     private double temperature;
 
-    @JsonProperty("umidade_dia")
+    @JsonProperty("umidadeDia")
     private double dayHumidity;
 
     @JsonProperty("vento")
     private double windSpeed;
 
-    @JsonProperty("unidade_vento")
+    @JsonProperty("unidadeVento")
     private String windUnit;
 }

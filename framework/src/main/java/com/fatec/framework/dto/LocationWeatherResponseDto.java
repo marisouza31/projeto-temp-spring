@@ -9,7 +9,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 @NoArgsConstructor
 @AllArgsConstructor
 public class LocationWeatherResponseDto {
-    @JsonProperty("tempo_zona")
+    @JsonProperty("tempoZona")
     private String timezone;
 
     @JsonProperty("temperatura")
