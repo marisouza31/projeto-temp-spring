@@ -19,8 +19,8 @@ public class WeatherController {
 
     @GetMapping("/location")
     public LocationWeatherResponseDto getWeatherByLocation(
-            @RequestParam String latitude,
-            @RequestParam String longitude) {
+            @RequestParam("latitude") String latitude,
+            @RequestParam("longitude") String longitude) {
         double lat = parseCoordinate(latitude, "latitude");
         double lon = parseCoordinate(longitude, "longitude");
 
