@@ -1,13 +1,13 @@
-package com.fatec.nickolas_mariana_ocireu;
+package com.fatec.framework;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class NickolasMarianaOcireuApplication {
+public class Startup {
 
 	public static void main(String[] args) {
-		SpringApplication.run(NickolasMarianaOcireuApplication.class, args);
+		SpringApplication.run(Startup.class, args);
 	}
 
 }
